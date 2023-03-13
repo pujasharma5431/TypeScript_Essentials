@@ -10,3 +10,13 @@ names.push("PP")
 function sum (a:number, b:number):number{
     return a+b;
 }
+
+// Tuples
+
+let address: [number,string,number];
+address=[11, "BUTWAL", 1223];
+
+// object
+
+let person:{name: string,age?:number};
+person={name: 'Puja', age:30}
