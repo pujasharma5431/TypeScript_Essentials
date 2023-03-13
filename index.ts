@@ -26,3 +26,14 @@ function add(a1: string, b1?:string){
 }
 
 console.log(add('1','2'))
+
+// interface
+
+interface Person1{
+    name: String;
+    id:Number;
+    age:Number;
+}
+let p: Person1;
+p={name:"Puja",age:22, id:1};
+
