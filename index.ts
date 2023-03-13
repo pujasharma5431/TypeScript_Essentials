@@ -20,3 +20,9 @@ address=[11, "BUTWAL", 1223];
 
 let person:{name: string,age?:number};
 person={name: 'Puja', age:30}
+
+function add(a1: string, b1?:string){
+    return a1+b1;
+}
+
+console.log(add('1','2'))
