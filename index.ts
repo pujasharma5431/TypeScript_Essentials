@@ -22,10 +22,10 @@ let person:{name: string,age?:number};
 person={name: 'Puja', age:30}
 
 function add(a1: string, b1?:string){
-    return a1+b1;
+    return b1? a1+b1: a1;
 }
 
-console.log(add('1','2'))
+console.log(add('1'))
 
 // interface
 
